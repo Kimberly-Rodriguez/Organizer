@@ -7,3 +7,26 @@ var projectNameInputEl = $('#project-name-input');
 var projectTypeInputEl = $('#project-type-input');
 var hourlyRateInputEl = $('#hourly-rate-input');
 var dueDateInputEl = $('#due-date-input');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+projectFormEl.on('submit', handleProjectFormSubmit);
+projectDisplayEl.on('click', '.delete-project-btn', handleDeleteProject);
+dueDateInputEl.datepicker({ minDate: 1 });
